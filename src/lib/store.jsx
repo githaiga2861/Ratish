@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useMemo, useState } from "react";
 
-export const PRICE_PER_LITER = 300; // KES
+export const PRICE_PER_LITER = 200; // KES
 export const WHATSAPP_NUMBER = "254700000000"; // replace with the real number, digits only
 export const CURRENCY = "KES";
 
