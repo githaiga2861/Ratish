@@ -8,7 +8,7 @@ export default function Hero() {
       className="relative min-h-[92vh] flex flex-col overflow-hidden"
       style={{
         background:
-          "linear-gradient(168deg, #131110 0%, #221c15 34%, #6b5a3a 62%, #d8c6a6 84%, #f7f2e7 100%)",
+          "linear-gradient(168deg, #1c1712 0%, #3a2c1a 34%, #96793e 62%, #e8d09e 84%, #fdf8ea 100%)",
       }}
     >
       {/* faint carved band across the dark field */}
