@@ -47,6 +47,16 @@ export default function Cart() {
         </span>
       </button>
 
+      
+        href={`https://wa.me/${WHATSAPP_NUMBER}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat with us on WhatsApp"
+        className="fixed z-40 bottom-5 left-5 bg-gold text-ivory p-3.5 rounded-full shadow-lg hover:bg-coal transition-colors"
+      >
+        <WhatsAppIcon className="w-6 h-6" />
+      </a>
+
       <AnimatePresence>
         {open && (
           <motion.div
