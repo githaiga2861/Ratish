@@ -7,8 +7,10 @@ export default function Hero() {
     <header
       className="relative min-h-[92vh] flex flex-col overflow-hidden"
       style={{
-        background:
-          "linear-gradient(168deg, #1c1712 0%, #3a2c1a 34%, #96793e 62%, #e8d09e 84%, #fdf8ea 100%)",
+        backgroundImage:
+          `linear-gradient(168deg, rgba(28,23,18,0.92) 0%, rgba(58,44,26,0.85) 34%, rgba(150,121,62,0.6) 62%, rgba(232,208,158,0.75) 84%, rgba(253,248,234,0.95) 100%), url(${heroBg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       {/* faint carved band across the dark field */}
