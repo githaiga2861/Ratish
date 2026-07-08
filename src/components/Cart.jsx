@@ -39,7 +39,7 @@ export default function Cart() {
       <button
         onClick={() => setOpen(true)}
         aria-label={`Open cart, ${cart.count} items`}
-        className="fixed z-40 top-5 right-5 bg-coal text-cream px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-gold transition-colors"
+        className="fixed z-40 bottom-5 right-5 bg-coal text-cream px-4 py-3 flex items-center gap-2.5 shadow-lg hover:bg-gold transition-colors"
       >
         <CartIcon className="w-5 h-5" />
         <span className="text-sm font-semibold tabular-nums">
