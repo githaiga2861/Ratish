@@ -5,10 +5,10 @@ export const WHATSAPP_NUMBER = "254700000000"; // replace with the real number, 
 export const CURRENCY = "KES";
 
 export const PRODUCTS = [
-  { id: "ml500", label: "500 ml", liters: 0.5, price: 160 },
-  { id: "l1", label: "1 Litre", liters: 1, price: 300 },
-  { id: "l5", label: "5 Litres", liters: 5, price: 1400 },
-  { id: "l20", label: "20 Litre Reserve", liters: 20, price: 5200 },
+  { id: "ml500", label: "500 ml", liters: 0.5, price: 100 },
+  { id: "l1", label: "1 Litre", liters: 1, price: 200 },
+  { id: "l5", label: "5 Litres", liters: 5, price: 999 },
+  { id: "l20", label: "20 Litre Reserve", liters: 20, price: 3999 },
 ];
 
 export function formatKES(n) {
