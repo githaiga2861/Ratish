@@ -2,12 +2,12 @@
 
 @theme {
   /* Palette — cream to antique gold to matte black. No bright colors. */
-  --color-cream: #f7f2e7;
-  --color-ivory: #fdfbf4;
-  --color-sand: #ebe0cc;
-  --color-beige: #d8c6a6;
-  --color-gold: #9a7b2f;
-  --color-gold-soft: #c6a85c;
+  --color-cream: #fdf8ea;
+  --color-ivory: #fffefa;
+  --color-sand: #f5e8c9;
+  --color-beige: #e8d09e;
+  --color-gold: #c9962e;
+  --color-gold-soft: #e8bf54;
   --color-ink: #2a241c;
   --color-coal: #131110;
 
