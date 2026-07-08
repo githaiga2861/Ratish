@@ -1,5 +1,5 @@
-import logoBlack from "../assets/logo-black.png";
-import logoWhite from "../assets/logo-white.png";
+import logoBlack from "../assets/logo-black.svg";
+import logoWhite from "../assets/logo-white.svg";
 
 /* RATISH horn mark — a drinking horn rising from a carved base, drawn as a
    single engraved SVG. Crisp on transparent backgrounds. */
