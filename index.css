@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Palette — cream to antique gold to matte black. No bright colors. */
+  --color-cream: #f7f2e7;
+  --color-ivory: #fdfbf4;
+  --color-sand: #ebe0cc;
+  --color-beige: #d8c6a6;
+  --color-gold: #9a7b2f;
+  --color-gold-soft: #c6a85c;
+  --color-ink: #2a241c;
+  --color-coal: #131110;
+
+  /* Muratina liquid spec — extraordinarily diluted, pale milky tea. */
+  --color-liquid: #e2c39e;
+  --color-liquid-light: #f0dfc4;
+  --color-liquid-deep: #d3ae87;
+
+  --font-display: "Fraunces", "Georgia", serif;
+  --font-body: "Manrope", "Helvetica Neue", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 3px;
+}
