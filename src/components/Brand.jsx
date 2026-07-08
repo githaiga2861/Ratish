@@ -1,3 +1,6 @@
+import logoBlack from "../assets/logo-black.png";
+import logoWhite from "../assets/logo-white.png";
+
 /* RATISH horn mark — a drinking horn rising from a carved base, drawn as a
    single engraved SVG. Crisp on transparent backgrounds. */
 export function HornMark({ className = "w-10 h-10" }) {
@@ -22,17 +25,13 @@ export function HornMark({ className = "w-10 h-10" }) {
   );
 }
 
-export function Wordmark({ className = "" }) {
+export function Wordmark({ className = "", variant = "white" }) {
   return (
-    <span className={`inline-flex items-center gap-2.5 ${className}`}>
-      <HornMark className="w-9 h-9" />
-      <span
-        className="font-display text-2xl tracking-[0.28em] font-medium"
-        style={{ fontFamily: "var(--font-display)" }}
-      >
-        RATISH
-      </span>
-    </span>
+    <img
+      src={variant === "white" ? logoWhite : logoBlack}
+      alt="Ratish"
+      className={`h-10 w-auto ${className}`}
+    />
   );
 }
 
